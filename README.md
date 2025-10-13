@@ -47,6 +47,11 @@ Developed by: RegisterNumber:*/
 **Timing Diagram**
 
 **Result:**
+LOGIC DIAGRAM:
+<img width="532" height="419" alt="Screenshot 2025-10-13 081910" src="https://github.com/user-attachments/assets/19840c06-be6f-433b-a5ae-12dacbb44b7a" />
+STATE DIAGRAM:
+![EXPBOOLEAN STATE DIAGRAM](https://github.com/user-attachments/assets/db9d0906-3c9e-4ab6-b04e-f2e73b511272)
+
 
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
 
