@@ -34,24 +34,27 @@ Hardware – PCs, Cyclone II , USB flasher
 **Program:**
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+```
+module exp2(a,b,c,d,f1,w,x,y,z,f2); 
+input a,b,c,d,w,x,y,z; 
+output f1,f2; 
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+assign f2=((~y & z)|( w & y )|(x & y)); 
+endmodule
+```
 
-Developed by: RegisterNumber:*/
-
+Developed by:BHARGAVI S
+RegisterNumber:25018916
 
 **RTL realization**
+<img width="503" height="489" alt="Screenshot 2026-05-11 114042" src="https://github.com/user-attachments/assets/d065b5e3-d3a9-4f9e-837e-e65cca8cf209" />
 
 **Output:**
 
 **RTL**
+<img width="1306" height="643" alt="Screenshot 2026-05-11 125724" src="https://github.com/user-attachments/assets/a0f2f357-92cd-4109-897c-b410a71cf616" />
 
-**Timing Diagram**
+
 
 **Result:**
-LOGIC DIAGRAM:
-<img width="532" height="419" alt="Screenshot 2025-10-13 081910" src="https://github.com/user-attachments/assets/19840c06-be6f-433b-a5ae-12dacbb44b7a" />
-STATE DIAGRAM:
-![EXPBOOLEAN STATE DIAGRAM](https://github.com/user-attachments/assets/db9d0906-3c9e-4ab6-b04e-f2e73b511272)
-
-
-Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
-
+Thus, the given logic functions are implemented using and their operations are verified.
